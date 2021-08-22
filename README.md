@@ -16,12 +16,12 @@ This project is simple Bank clinet and server that uses sockets to connect the c
 
 # Features
 * JavaFX
-* using sockets
-* using threads and thread-safe methods
-* hanndling muiltple clients at a time
-* using serilization to transfer obejects/data between server and client
-* simple and easy-to-use API for clinet and server to communicate
-* Parser to parse the data file(eg: user.bd), fetch, search and update informations
+* Using sockets
+* Using threads and thread-safe methods
+* Hanndling muiltple clients at a time
+* Using serilization to transfer obejects/data between server and client
+* Simple and easy-to-use API for clinet and server to communicate
+* Parser: parse the data files(e. g: user.bd) to fetch, search and update informations
 
 ### Why Database and SQL were not used?
 This project was an assignment for a university course(Advanced Programming).
