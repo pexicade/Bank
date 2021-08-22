@@ -1,7 +1,7 @@
 # Bank
 This project is simple Bank clinet and server that uses sockets to connect the clinets to server.
 
-# What you can do
+# What can this do
 * Sign up as a new user
 * Login
 * Users are Required to create a new bank account if there isn't any
