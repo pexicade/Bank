@@ -25,4 +25,4 @@ The assignment prohibted any usage of database.
 Text files are used to store informations.(with .bd extension, bd: bank data)
 
 ## Shot
-[!Login](https://s4.uupload.ir/files/login_qrl8.png)
+![Login](https://s4.uupload.ir/files/login_qrl8.png)
