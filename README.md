@@ -1,5 +1,5 @@
 # Bank
-This project is simple Bank clinet and server that uses sockets to connect the clinets to server.
+This project is simple Bank clinet and server that uses sockets to connect the clinets to server. It also uses a simple API to send commands and get the results back!
 
 # What can this do
 * Sign up as a new user
