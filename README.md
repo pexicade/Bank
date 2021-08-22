@@ -20,17 +20,19 @@ This project is simple Bank clinet and server that uses sockets to connect the c
 * using threads and thread-safe methods
 * hanndling muiltple clients at a time
 * using serilization to transfer obejects/data between server and client
+* simple and easy-to-use API for clinet and server to communicate
+* Parser to parse the data file(eg: user.bd), fetch, search and update informations
 
 ### Why Database and SQL were not used?
 This project was an assignment for a university course(Advanced Programming).
 The assignment prohibted any usage of database.
-#### Text files are used to store informations.(with .bd extension, bd: bank data)
+#### Text files are used to store informations(with .bd extension, bd: bank data)
 
 # Dependencies
 * JavaFX library(and its configurations)
 #### java 16+ recommended
 
-## Screenshot
+## Screenshots
 ![Signup](https://s4.uupload.ir/files/signup_zz37.png)
 ![Login](https://s4.uupload.ir/files/login_qrl8.png)
 ![Dashboard](https://s4.uupload.ir/files/dashboard_mm5z.png)
