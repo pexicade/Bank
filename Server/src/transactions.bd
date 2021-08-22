@@ -1,0 +1,252 @@
+
+{
+	type: transfer;
+	acc_number: 01234;
+	target_acc_number: 541236;
+	amount: 500;
+	date: 2021-07-03;
+	desc: test dige;
+}
+
+{
+	type: transfer;
+	acc_number: 541236;
+	from_acc_number: 01234;
+	amount: 500;
+	date: 2021-07-03;
+}
+
+{
+	type: billing;
+	acc_number: 541236;
+	bill_id: 5698;
+	pay_id: 98761;
+	amount: 75;
+	date: 2021-06-02;
+}
+
+{
+	type: transfer;
+	acc_number: 147890;
+	target_acc_number: 2066820993;
+	amount: 210;
+	date: 2021-07-03;
+	desc: velemon kon baaba;
+}
+
+{
+	type: transfer;
+	acc_number: 2066820993;
+	from_acc_number: 147890;
+	amount: 210;
+	date: 2021-07-03;
+}
+
+{
+	type: billing;
+	acc_number: 147890;
+	bill_id: 1234;
+	pay_id: 9876;
+	amount: 55;
+	date: 2021-07-03;
+}
+
+{
+	type: transfer;
+	acc_number: 2066820993;
+	target_acc_number: 74026;
+	amount: 1210;
+	date: 2021-07-03;
+	desc: Transferring the money of account due to deactivation;
+}
+
+{
+	type: transfer;
+	acc_number: 74026;
+	from_acc_number: 2066820993;
+	amount: 1210;
+	date: 2021-07-03;
+}
+
+{
+	type: getLoan;
+	acc_number: 01234;
+	amount: 5000;
+	payment: 250;
+	date: 2021-07-03;
+	desc: vam mikham dige ;
+}
+
+{
+	type: transfer;
+	acc_number: 2322916722;
+	target_acc_number: 1832217471;
+	amount: 540;
+	date: 2021-07-05;
+	desc: null;
+}
+
+{
+	type: transfer;
+	acc_number: 1832217471;
+	from_acc_number: 2322916722;
+	amount: 540;
+	date: 2021-07-05;
+}
+
+{
+	type: transfer;
+	acc_number: 1620622241;
+	target_acc_number: 541236;
+	amount: 120;
+	date: 2021-07-05;
+	desc: Transferring the money of account due to deactivation;
+}
+
+{
+	type: transfer;
+	acc_number: 541236;
+	from_acc_number: 1620622241;
+	amount: 120;
+	date: 2021-07-05;
+}
+
+{
+	type: billing;
+	acc_number: 1620622241;
+	bill_id: 12345;
+	pay_id: 6987;
+	amount: 50;
+	date: 2021-07-06;
+}
+
+{
+	type: billing;
+	acc_number: 1620622241;
+	bill_id: 12345;
+	pay_id: 6987;
+	amount: 50;
+	date: 2021-07-06;
+}
+
+{
+	type: transfer;
+	acc_number: 1832217471;
+	target_acc_number: 74026;
+	amount: 1540;
+	date: 2021-07-06;
+	desc: Transferring the money of account due to deactivation;
+}
+
+{
+	type: transfer;
+	acc_number: 74026;
+	from_acc_number: 1832217471;
+	amount: 1540;
+	date: 2021-07-06;
+}
+
+{
+	type: transfer;
+	acc_number: 1620622241;
+	target_acc_number: 74026;
+	amount: 575;
+	date: 2021-07-06;
+	desc: Transferring the money of account due to deactivation;
+}
+
+{
+	type: transfer;
+	acc_number: 74026;
+	from_acc_number: 1620622241;
+	amount: 575;
+	date: 2021-07-06;
+}
+
+{
+	type: transfer;
+	acc_number: 2045919449;
+	target_acc_number: 01234;
+	amount: 1000;
+	date: 2021-07-06;
+	desc: Transferring the money of account due to deactivation;
+}
+
+{
+	type: transfer;
+	acc_number: 01234;
+	from_acc_number: 2045919449;
+	amount: 1000;
+	date: 2021-07-06;
+}
+
+{
+	type: transfer;
+	acc_number: 2379623178;
+	target_acc_number: 01234;
+	amount: 1000;
+	date: 2021-07-06;
+	desc: Transferring the money of account due to deactivation;
+}
+
+{
+	type: transfer;
+	acc_number: 01234;
+	from_acc_number: 2379623178;
+	amount: 1000;
+	date: 2021-07-06;
+}
+
+{
+	type: transfer;
+	acc_number: 1832217471;
+	target_acc_number: 2322916722;
+	amount: 20;
+	date: 2021-07-06;
+	desc: null;
+}
+
+{
+	type: transfer;
+	acc_number: 2322916722;
+	from_acc_number: 1832217471;
+	amount: 20;
+	date: 2021-07-06;
+}
+
+{
+	type: getLoan;
+	acc_number: 1832217471;
+	amount: 120;
+	payment: 20;
+	month_count: 6;
+	date: 2021-07-06;
+	desc: null;
+}
+
+{
+	type: getLoan;
+	acc_number: 1832217471;
+	amount: 240;
+	payment: 10;
+	month_count: 24;
+	date: 2021-07-06;
+	desc: null;
+}
+
+{
+	type: transfer;
+	acc_number: 1620622241;
+	target_acc_number: 541236;
+	amount: 215;
+	date: 2021-07-06;
+	desc: hminjori;
+}
+
+{
+	type: transfer;
+	acc_number: 541236;
+	from_acc_number: 1620622241;
+	amount: 215;
+	date: 2021-07-06;
+}

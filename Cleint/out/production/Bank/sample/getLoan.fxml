@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="695.0" prefWidth="974.0"
+            stylesheets="@../../../../css/style.css" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.GetLoanController">
+    <top>
+        <AnchorPane prefHeight="198.0" prefWidth="974.0" style="-fx-background-color: #9b51b1;" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fx:id="accountBalanceIcon" fitHeight="71.0" fitWidth="76.0" layoutX="838.0" layoutY="55.0" />
+                <ImageView fx:id="toDashboard" fitWidth="36" fitHeight="36" layoutY="20" layoutX="20" onMouseClicked="#toDashboardPage"/>
+                <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="681.0" layoutY="78.0" prefHeight="40.0" prefWidth="143.0" text="درخواست وام" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri" size="30.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </top>
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="680.0" layoutY="190.0" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #9b51b1; -fx-background-radius: 10;" text="مبلغ وام" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri Light" size="22.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="680.0" layoutY="61.0" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #9b51b1; -fx-background-radius: 10;" text="شماره حساب" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri Light" size="22.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="680.0" layoutY="129.0" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #9b51b1; -fx-background-radius: 10;" text="رمز حساب" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri Light" size="22.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="680.0" layoutY="254.0" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #9b51b1; -fx-background-radius: 10;" text="دوره پرداخت" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri Light" size="22.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="680.0" layoutY="310.0" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #9b51b1; -fx-background-radius: 10;" text="توضیحات" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri Light" size="22.0" />
+                    </font>
+                </Label>
+
+                <Label fx:id="error" alignment="CENTER" layoutX="359.0" layoutY="455.0" prefHeight="35.0" prefWidth="298.0" style="-fx-background-color: red; -fx-background-radius: 4" textFill="WHITE">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+
+                <ChoiceBox fx:id="accNumber" layoutX="328.0" layoutY="66.0" prefHeight="26.0" prefWidth="331.0" />
+                <PasswordField fx:id="accPassword" layoutX="328.0" layoutY="134.0" prefHeight="26.0" prefWidth="331.0" promptText="Passord"/>
+                <TextField fx:id="amount" layoutX="328.0" layoutY="195.0" prefHeight="26.0" prefWidth="331.0" promptText="Amount" />
+                <ChoiceBox fx:id="dovre" layoutX="328.0" layoutY="254.0" prefHeight="26.0" prefWidth="331.0" >
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="6 ماهه" />
+                            <String fx:value="12 ماهه" />
+                            <String fx:value="18 ماهه" />
+                            <String fx:value="24 ماهه" />
+                        </FXCollections>
+                    </items>
+                </ChoiceBox>
+                <TextArea fx:id="desc" layoutX="328.0" layoutY="315" prefHeight="65" prefWidth="331" promptText="Description" />
+                <Button layoutX="405.0" layoutY="395.0" mnemonicParsing="false" onMouseClicked="#Clicked" prefHeight="45.0" prefWidth="200.0" style="-fx-background-color: #9b51b1; -fx-background-radius: 20;" text="ثبت درخواست" textFill="WHITE" >
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

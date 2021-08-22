@@ -1,0 +1,127 @@
+{
+	id: 1;
+	username: pexi;
+	email: pexi@gmail.com;
+	password: ramz;
+	date: 2021-06-30;
+	first_name: mhmd;
+	last_name: sadeghi;
+	code: 105168430;
+	phone: 9303257419;
+	number_of_accounts: 1;
+	acc_number: 01234;
+}
+
+{
+	id: 2;
+	username: pexicade;
+	email: mhmdX@gmail.com;
+	password: zdrtfc159;
+	date: 2021-06-30;
+	first_name: mhmd;
+	last_name: sadeghi;
+	code: 111222;
+	phone: 09315852963;
+	number_of_accounts: 0;
+	acc_number: null;
+}
+
+{
+	id: 3;
+	username: fuck;
+	email: xx@gmail.com;
+	password: you;
+	date: 2021-06-30;
+	first_name: shaqi;
+	last_name: tabatabayi;
+	code: 10514785;
+	phone: 0915874632;
+	number_of_accounts: 1;
+	acc_number: 541236;
+}
+
+{
+	id: 4;
+	username: kimi;
+	email: kimia@poz.com;
+	password: Kimia12@;
+	date: 2021-07-01;
+	first_name: Kimia;
+	last_name: Pozesh;
+	code: 1024567890;
+	phone: 09125468532;
+	number_of_accounts: 1;
+	acc_number: 2322916722;
+}
+
+{
+	id: 5;
+	username: kimia;
+	email: kimia@pozesh.com;
+	password: Kimia12@;
+	date: 2021-07-01;
+	first_name: kimia;
+	last_name: Pozesh;
+	code: 1024567891;
+	phone: 09125468534;
+	number_of_accounts: 3;
+	acc_number: 2379623178;
+	acc_number: 1832217471;
+	acc_number: 1620622241;
+}
+
+{
+	id: 6;
+	username: alidehghani;
+	email: ALID@gmail.com;
+	password: zdrtfc159;
+	date: 2021-07-02;
+	first_name: Ali;
+	last_name: Dehghani;
+	code: 1234589;
+	phone: 0952054878;
+	number_of_accounts: 1;
+	acc_number: 147890;
+}
+
+{
+	id: 7;
+	username: Theking;
+	email: Reza@gmail.com;
+	password: Asdfgh1;
+	date: 2021-07-03;
+	first_name: Reza;
+	last_name: Behmanesh;
+	code: 0958762036;
+	phone: 123015974;
+	number_of_accounts: 1;
+	acc_number: 2066820993;
+}
+
+{
+	id: 8;
+	username: imFtme;
+	email: fateme@mailin.com;
+	password: 12Aswdcv!;
+	date: 2021-07-05;
+	first_name: Fateme;
+	last_name: Ebadi;
+	code: 1236985470;
+	phone: 09158623479;
+	number_of_accounts: 1;
+	acc_number: 1810825574;
+}
+
+{
+	id: 9;
+	username: mhmdsa;
+	email: asd@fx.com;
+	password: Asdfghjkl1!;
+	date: 2021-08-22;
+	first_name: mhmd;
+	last_name: sadeghi;
+	code: 1234567890;
+	phone: 0915151130;
+	number_of_accounts: 0;
+	acc_number: null;
+}

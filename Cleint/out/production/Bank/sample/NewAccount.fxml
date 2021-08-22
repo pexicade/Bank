@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="904.0" stylesheets="@../../../../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NewAccountController">
+    <center>
+        <AnchorPane prefHeight="600.0" prefWidth="974.0" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fx:id="Background" fitHeight="154.0" fitWidth="904.0" layoutY="0.0">
+<!--               <image>-->
+<!--                  <Image url="@../../image/Black-Purple-Wallpaper-55+-Group-Wallpapers.jpg" />-->
+<!--               </image>-->
+                </ImageView>
+                <ImageView fx:id="toDashboard" fitWidth="36" fitHeight="36" layoutY="20" layoutX="20" onMouseClicked="#toDashboardPage"/>
+                <Label alignment="CENTER" contentDisplay="TEXT_ONLY" layoutX="507.0" layoutY="38.0" prefHeight="72.0" prefWidth="320.0" text="ثبت حساب" textFill="#f7f6f6">
+                    <font>
+                        <Font name="Calibri Bold Italic" size="24.0" />
+                    </font>
+                </Label>
+                <ImageView fx:id="outline_credit_score_white" layoutX="810.0" layoutY="50.0" />
+                <ChoiceBox layoutX="320.0" layoutY="238.0" prefHeight="29.0" prefWidth="303.0" fx:id="accType"  value="حساب سپرده بلند مدت" >
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String  fx:value="حساب سپرده بلند مدت" />
+                            <String fx:value="حساب سپرده کوتاه مدت" />
+                            <String fx:value="حساب جاری" />
+                        </FXCollections>
+                    </items>
+                </ChoiceBox>
+                <Label alignment="CENTER" layoutX="640.0" layoutY="241.0" prefHeight="18.0" prefWidth="75.0" style="-fx-background-color: #582866; -fx-background-radius: 10;" text="نوع حساب" textFill="WHITE">
+                   <font>
+                      <Font name="Calibri Light" size="18.0" />
+                   </font>
+                </Label>
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="640.0" layoutY="324.0" prefHeight="18.0" prefWidth="75.0" style="-fx-background-color: #582866; -fx-background-radius: 10;" text="رمز عبور" textFill="WHITE">
+                   <font>
+                      <Font name="Calibri Light" size="18.0" />
+                   </font>
+                </Label>
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="640.0" layoutY="410.0" prefHeight="22.0" prefWidth="92.0" style="-fx-background-color: #582866; -fx-background-radius: 10;" text="تکرار رمز عبور" textFill="WHITE">
+                   <font>
+                      <Font name="Calibri Light" size="18.0" />
+                   </font>
+                </Label>
+                <PasswordField fx:id="passwordText" layoutX="322.0" layoutY="325.0" prefHeight="25.0" prefWidth="305.0" promptText="Password" />
+                <PasswordField fx:id="passwordConfirm" layoutX="320.0" layoutY="411.0" prefHeight="25.0" prefWidth="314.0" promptText="Password confirmation"/>
+                <Button fx:id="submit" layoutX="320" layoutY="457" prefWidth="305.0" prefHeight="30" style="-fx-background-color: #693270; -fx-background-radius: 20" text="تایید" onMouseClicked="#createNewAccount" textFill="WHITE">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Button>
+                <Label fx:id="error" visible="false" alignment="CENTER" layoutX="350.0" layoutY="520.0" prefHeight="35.0" prefWidth="260.0" style="-fx-background-color: #e73011; -fx-background-radius: 4" textFill="WHITE">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

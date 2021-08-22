@@ -1,0 +1,100 @@
+
+{
+    id: 1;
+    acc_number: 01234;
+    acc_pass: sdv50lo;
+    type: checking;
+    date: 04_04_2021;
+	balance: 9000;
+    active: true;
+}
+
+{
+    id: 2;
+    acc_number: 74026;
+    acc_pass: sdf21;
+    type: saving;
+    date: 28_04_2021;
+	balance: 3445;
+    active: true;
+}
+
+{
+    id: 3;
+    acc_number: 541236;
+    acc_pass: 896412;
+    type: saving;
+    date: 03_12_2019;
+	balance: 1515;
+    active: true;
+}
+
+{
+    id: 4;
+    acc_number: 147890;
+    acc_pass: 79846;
+    type: checking;
+    date: 01_03_2021;
+	balance: 4745;
+    active: false;
+}
+
+{
+	id: 5;
+	acc_number: 1620622241;
+	acc_pass: 79513;
+	type: saving;
+	date: 2021-07-03;
+	balance: 505;
+	active: true;
+}
+
+{
+	id: 6;
+	acc_number: 1832217471;
+	acc_pass: 41276;
+	type: checking;
+	date: 2021-07-03;
+	balance: 1040;
+	active: true;
+}
+
+{
+	id: 7;
+	acc_number: 2066820993;
+	acc_pass: 208763;
+	type: saving;
+	date: 2021-07-03;
+	balance: 280;
+	active: false;
+}
+
+{
+	id: 8;
+	acc_number: 2322916722;
+	acc_pass: 930872;
+	type: long-term saving;
+	date: 2021-07-04;
+	balance: 480;
+	active: true;
+}
+
+{
+	id: 9;
+	acc_number: 1810825574;
+	acc_pass: 24896;
+	type: checking;
+	date: 2021-07-05;
+	balance: 1000;
+	active: true;
+}
+
+{
+	id: 10;
+	acc_number: 2379623178;
+	acc_pass: 96854;
+	type: checking;
+	date: 2021-07-06;
+	balance: 0;
+	active: false;
+}

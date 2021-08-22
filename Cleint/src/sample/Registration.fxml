@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0"
+            stylesheets="@../../../../css/style.css" prefWidth="904.0" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.RegistrationController">
+    <left>
+        <AnchorPane prefHeight="670.0" prefWidth="452.0" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fx:id="bigPic" fitHeight="670.0" fitWidth="464.0" layoutX="-10.0" />
+            </children>
+        </AnchorPane>
+    </left>
+    <center>
+        <AnchorPane fx:id="signupForm" prefHeight="670.0" prefWidth="452.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="300.0" layoutY="15.0" prefHeight="20.0" prefWidth="125.0" text="ثبت حساب جدید" textFill="#6d2279" />
+                <Label fx:id="errorLabel" layoutX="121" layoutY="45" prefHeight="40" prefWidth="257" alignment="CENTER" textFill="white"  />
+                <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="322.0" layoutY="95.0" prefHeight="25.0" prefWidth="75.0" text="نام" textFill="#6d2279" />
+                <TextField alignment="CENTER_LEFT" layoutX="273.0" layoutY="125.0" prefHeight="30.0" prefWidth="125.0" promptText="first" fx:id="fNameText" />
+                <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="161.0" layoutY="95.0" prefHeight="25.0" prefWidth="75.0" text="نام خانوادگی" textFill="#6d2279" />
+                <TextField alignment="CENTER_LEFT" layoutX="91.0" layoutY="125.0" prefHeight="30.0" prefWidth="145.0" promptText="last" fx:id="lNameText" />
+                <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="322.0" layoutY="170.0" prefHeight="25.0" prefWidth="75.0" text="کد ملی" textFill="#6d2279" />
+                <TextField alignment="CENTER_LEFT" layoutX="91.0" layoutY="200.0" prefHeight="30.0" prefWidth="307.0" promptText="Melli Code" fx:id="codeText" />
+                <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="322.0" layoutY="245.0" prefHeight="25.0" prefWidth="75.0" text="ایمیل" textFill="#6d2279" />
+                <TextField alignment="CENTER_LEFT" layoutX="91.0" layoutY="275.0" prefHeight="30.0" prefWidth="307.0" promptText="Email" fx:id="emailText" />
+                <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="322.0" layoutY="320.0" prefHeight="25.0" prefWidth="75.0" text="نام کاربری" textFill="#6d2279" />
+                <TextField alignment="CENTER_LEFT" layoutX="91.0" layoutY="350.0" prefHeight="30.0" prefWidth="307.0" promptText="Username" fx:id="usernameText" />
+                <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="322.0" layoutY="395.0" prefHeight="25.0" prefWidth="75.0" text="رمز عبور" textFill="#6d2279" />
+                <PasswordField alignment="CENTER_LEFT" layoutX="91.0" layoutY="425.0" prefHeight="30.0" prefWidth="307.0" promptText="Password" fx:id="passwordText" />
+                <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="322.0" layoutY="470.0" prefHeight="25.0" prefWidth="75.0" text="شماره تلفن" textFill="#6d2279" />
+                <TextField alignment="CENTER_LEFT" layoutX="91.0" layoutY="500.0" prefHeight="30.0" prefWidth="307.0" promptText="Phone number" fx:id="phoneText" />
+                <Button alignment="CENTER" layoutX="91.0" layoutY="555.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="307.0" style="-fx-background-color: #6d2279;" text="نامنویسی" textFill="WHITE" onMouseClicked="#toLoginPage" />
+                <Label  layoutX="272.0" layoutY="625.0" prefHeight="30.0" prefWidth="125.0" alignment="CENTER_RIGHT" text="حساب کاربری دارید؟" />
+<!--                <Label layoutX="182.0" layoutY="545.0" prefHeight="18.0" prefWidth="20.0" text="را فشار دهید" />-->
+                <Label fx:id="GoToLoginButt" layoutX="204.0" layoutY="625.0" mnemonicParsing="false" onMouseClicked="#goToLogin" prefHeight="30.0" prefWidth="65.0" alignment="CENTER_RIGHT" style="-fx-background-color: #0000;" text="وارد شوید" textFill="#6d2279" />
+
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>
